@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #444;
+}
+
+#log, #state{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffa500;
+    border-radius: 10px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
